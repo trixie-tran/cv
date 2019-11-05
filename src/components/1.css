@@ -1,0 +1,153 @@
+body {
+  background: #525659; }
+
+.cv {
+  margin-top: 30px; }
+  .cv ._1 {
+    padding: 0 15px; }
+    .cv ._1 .tren {
+      background: gray;
+      width: 100%;
+      height: 100px;
+      margin: 0px;
+      padding: 0px; }
+      .cv ._1 .tren .name {
+        color: #fcf8de;
+        font-size: 50px;
+        font-weight: 700;
+        float: right;
+        padding-top: 6px;
+        padding-right: 24px; }
+
+.khoiduoi ._2 {
+  background: #414142;
+  margin-left: 0px;
+  width: 100%; }
+  .khoiduoi ._2 .khoi {
+    background: #fcf8e0;
+    border-top: 3px solid #5f5b5b;
+    margin: 0px;
+    padding: 0px; }
+    .khoiduoi ._2 .khoi .khoitrai ._1khoi {
+      margin: 0;
+      padding: 30px 25px 30px 22px; }
+      .khoiduoi ._2 .khoi .khoitrai ._1khoi .col-sm-12 .tieumuc {
+        font-size: 25px;
+        color: #7c7a79;
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-bottom: 20px; }
+    .khoiduoi ._2 .khoi .khoitrai .them .col-sm-9 .icon {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 5px; }
+      .khoiduoi ._2 .khoi .khoitrai .them .col-sm-9 .icon .fa {
+        position: absolute;
+        z-index: 5;
+        font-size: 20px;
+        margin-top: -10px;
+        color: #fcf8e0;
+        top: 50%;
+        left: 50%;
+        margin-left: -10px; }
+      .khoiduoi ._2 .khoi .khoitrai .them .col-sm-9 .icon .nen {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        z-index: 1;
+        background: #514f50;
+        border-radius: 50%; }
+    .khoiduoi ._2 .khoi .khoitrai .them .col-sm-9 .tieumuc {
+      font-size: 25px;
+      color: #7c7a79;
+      text-transform: capitalize;
+      font-weight: 600;
+      padding-bottom: 20px; }
+    .khoiduoi ._2 .khoi .khoitrai .them .col-sm-3 {
+      padding: 100px 20px 39px 20px;
+      color: #44444b;
+      text-align: right;
+      font-size: 15px;
+      font-weight: 800; }
+.khoiduoi .khoiphai {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  .khoiduoi .khoiphai .row {
+    margin: 0;
+    padding: 0; }
+    .khoiduoi .khoiphai .row .anh {
+      width: 100%;
+      height: 250px;
+      position: relative; }
+      .khoiduoi .khoiphai .row .anh img {
+        position: absolute;
+        border-radius: 50%;
+        width: 200px;
+        top: 20px;
+        left: 40px; }
+    .khoiduoi .khoiphai .row .text {
+      width: 242px;
+      height: 220px;
+      position: absolute;
+      z-index: 1;
+      top: 240px;
+      left: 22px;
+      color: #fcf8e0;
+      background: #514f50;
+      overflow: hidden; }
+      .khoiduoi .khoiphai .row .text .fas {
+        width: 22px;
+        margin-right: 2px;
+        margin-top: 14px;
+        margin-left: 11px; }
+      .khoiduoi .khoiphai .row .text .p {
+        font-size: 15px;
+        width: 180px;
+        margin: 11px 0; }
+    .khoiduoi .khoiphai .row .tdt {
+      position: absolute;
+      z-index: 2;
+      top: 500px;
+      left: 33px;
+      color: #fcf8e0; }
+      .khoiduoi .khoiphai .row .tdt.kn li {
+        list-style: none;
+        overflow: hidden; }
+        .khoiduoi .khoiphai .row .tdt.kn li.line {
+          position: relative;
+          width: 220px;
+          height: 11px;
+          background: #6a6971; }
+          .khoiduoi .khoiphai .row .tdt.kn li.line .dong {
+            width: 100px;
+            height: 11px;
+            background: #fcf8e0;
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            animation: divao 1s forwards;
+            opacity: 0; }
+@-webkit-keyframes divao {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+            .khoiduoi .khoiphai .row .tdt.kn li.line .dong.fs {
+              width: 169px; }
+            .khoiduoi .khoiphai .row .tdt.kn li.line .dong.sd {
+              width: 150px; }
+            .khoiduoi .khoiphai .row .tdt.kn li.line .dong._th {
+              width: 50px; }
+      .khoiduoi .khoiphai .row .tdt.st {
+        top: 750px; }
+        .khoiduoi .khoiphai .row .tdt.st li {
+          list-style-type: circle; }
+
+/*# sourceMappingURL=1.css.map */

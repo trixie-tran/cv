@@ -1,0 +1,218 @@
+ $cden: #514f50;
+ $cbody: rgb(82, 86, 89);
+ $cvang: #fcf8e0;
+ $cxam: #6a6971;
+ 
+
+ body {
+    background: rgb(82, 86, 89);
+ }
+    
+ .cv {
+    margin-top: 30px;
+    ._1 {
+        padding: 0 15px;
+       .tren {
+            background: gray;
+            width: 100%;
+            height: 100px;
+            margin: 0px;
+            padding: 0px;
+            .name {
+                color: #fcf8de;
+                font-size: 50px;
+                font-weight: 700;
+                float: right;
+                padding-top: 6px;
+                padding-right: 24px;
+            } //name
+    } //tren
+} 
+}// hetkhoitren
+.khoiduoi{
+    ._2 {
+        background: #414142;
+        margin-left: 0px;
+        width: 100%;
+        .khoi {
+            background: #fcf8e0;
+            border-top: 3px solid #5f5b5b;
+            margin: 0px;
+            padding: 0px;
+            .khoitrai{
+                ._1khoi {
+                margin: 0;
+                padding: 30px 25px 30px 22px;
+                .col-sm-12{
+                    .tieumuc {
+                        font-size: 25px;
+                        color: #7c7a79;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        padding-bottom: 20px;
+                                } //tieumuc
+                        } //col
+                
+                 } //_1khoi
+                .them{
+                    .col-sm-9{
+                        .icon {
+                            position: relative;
+                            width: 40px;
+                            height: 40px;
+                            float: left;
+                            margin-right: 5px;
+                             .fa {
+                                position: absolute;
+                                z-index: 5;
+                                font-size: 20px;
+                                margin-top: -10px;
+                                color: #fcf8e0;
+                                top: 50%;
+                                left: 50%;
+                                margin-left: -10px;
+                            } //fa
+                             .nen {
+                                width: 40px;
+                                height: 40px;
+                                position: absolute;
+                                z-index: 1;
+                                background: #514f50;
+                                border-radius: 50%;
+    
+                                } //nen
+                            
+                            } //icon
+                            .tieumuc {
+                                font-size: 25px;
+                                color: #7c7a79;
+                                text-transform: capitalize;
+                                font-weight: 600;
+                                padding-bottom: 20px;
+                                 } //tieumuc
+                                
+                    } //col9
+                    
+                    .col-sm-3 {
+                            padding: 100px 20px 39px 20px;
+                            color: #44444b;
+                            text-align: right;
+                            font-size: 15px;
+                            font-weight: 800;
+                    } //col3
+                     
+                    } //them
+             } //khoitrai
+            } //khoi
+        } //_2
+    
+      
+        .khoiphai{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            .row {
+                margin: 0;
+                padding: 0;
+           
+                .anh {
+                    width: 100%;
+                    height: 250px;
+                    position: relative;
+                    img {
+                        position: absolute;
+                        border-radius: 50%;
+                        width: 200px;
+                        top: 20px;
+                        left: 40px;
+                    } //ava
+                } //anh
+            .text {
+                width: 242px;
+                height: 220px;
+                position: absolute;
+                z-index: 1;
+                top: 240px;
+                left: 22px;
+                color: #fcf8e0;
+                background: #514f50;
+                overflow: hidden;
+                .fas {
+                    width: 22px;
+                    margin-right: 2px;
+                    margin-top: 14px;
+                    margin-left: 11px;
+                } //fas
+                .p {
+                    font-size: 15px;
+                    width: 180px;
+                    margin: 11px 0;
+                } //p
+            } //text
+            .tdt {
+                position: absolute;
+                z-index: 2;
+                top: 500px;
+                left: 33px;
+                color: #fcf8e0;
+                &.kn {
+                    li {
+                        list-style: none;
+                        overflow: hidden;
+                        &.line {
+                            position: relative;
+                            width: 220px;
+                            height: 11px;
+                            background: #6a6971;
+                        
+                            .dong {
+                                width: 100px;
+                                height: 11px;
+                                background: #fcf8e0;
+                                position: absolute;
+                                z-index: 3;
+                                top: 0;
+                                left: 0;
+                                animation: divao 1s forwards;
+                                opacity: 0;
+                                @-webkit-keyframes divao{
+                                    0%{opacity: 0;
+                                        transform: translateX(-200px);
+                                        visibility: hidden;
+                                
+                                    }	
+                                    100%{opacity: 1;
+                                        transform: translateX(0);
+                                        
+                                
+                                    }
+                                }
+                                &.fs {
+                                    width: 169px;
+                                } //fs
+                                &.sd {
+                                    width: 150px;
+                                } //sd
+                                &._th {
+                                    width: 50px;
+                                } //th
+                                
+                            } //dong
+                        } //line
+                    } //li
+                } //kn
+                &.st{
+                    
+                        top: 750px;
+                         li {
+                            list-style-type: circle;
+                        } //li
+                } //st
+            } //tdt
+        } //row
+        } //khoiphai
+        } //khoiduoi
+        
+
+
+ 
