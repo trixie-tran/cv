@@ -1,5 +1,34 @@
 *{margin:0;padding:0;}
 
+svg {
+    margin: 0 16px 0 0;
+    font-size: 29px;
+}
+
+._1khoi li {
+    list-style: none;
+    line-height: 30px;
+}
+
+li.ten {
+    font-size: 15px;
+    font-weight: 700;
+    color: #4e4c4c;
+}
+
+hr {
+    border: 33px solid #414142;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* overflow: hidden; */
+    top: 0;
+    left: 0px;
+}
+
 .icon .nen {
     width: 40px;
     height: 40px;
@@ -16,19 +45,19 @@
     float: left;
     margin-right: 5px;
 }
-/* // */
-/* .row._1 {
+
+ .row._1 {
     padding: 0 15px;
-} */
+} 
 
-/* .container.cv {
+ .container.cv {
     margin-top: 30px;
-} */
+} 
 
-/* body {
+ body {
     background: rgb(82, 86, 89);
 }
-// */
+
 
 
 
@@ -95,20 +124,26 @@ li.line {
 }
 
 .tdt.st {
-    top: 750px;
+    top: 82%;
 }
 
 .tdt {
     position: absolute;
     z-index: 2;
-    top: 500px;
-    left: 33px;
+    top: 49%;
+    left: 18px;
     color: #fcf8e0;
 }
 
-.tdt.kn ul li {
+.tdt.sk {
+    top: 57%;
+}
+
+.tdt ul li {
     list-style: none;
     overflow: hidden;
+    line-height: 45px;
+    font-size: 22px;
 }
 .st ul li {
 	list-style-type: circle;
@@ -117,31 +152,31 @@ li.line {
 	top: 750px;
 }
 .text p {
-    font-size: 15px;
-    width: 180px;
-    margin: 11px 0;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px 0px;
+    line-height: 62px;
 }
 
 .text .fas {
-    width: 22px;
-    margin-right: 2px;
-    margin-top: 14px;
-    margin-left: 11px;
+    width: 25px;
+    margin-right: 1px;
+    margin-top: 7px;
+    margin-left: 7px;
 }
 
 
 .khoiphai .row {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 .row.text {
-    width: 242px;
-    height: 220px;
+    width: 100%;
     position: absolute;
     z-index: 1;
-    top: 240px;
-    left: 22px;
+    top: 455px;
+    left: 0;
     color: #fcf8e0;
     background: #514f50;
     overflow: hidden;
@@ -149,37 +184,42 @@ li.line {
 
 .row.anh {
     width: 100%;
-    height: 250px;
+    height: 390px;
     position: relative;
 }
 
 .anh .avatar img {
     position: absolute;
-    border-radius: 50%;
-    width: 200px;
-    top: 20px;
-    left: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 
 .col-sm-3.khoiphai {
-    margin: 0;
-    padding: 0;
+    margin: -100px 0;
+    padding: 0px;
     overflow: hidden;
 }
 
 ._1khoi .col-sm-3 {
-    padding: 100px 20px 39px 20px;
+    padding: 56px 20px 39px 20px;
     color: #44444b;
     text-align: right;
     font-size: 15px;
     font-weight: 800;
 }
 
-/* .row._1khoi {
+.row._1khoi {
     margin: 0;
     padding: 30px 25px 30px 22px;
-} */
+    height: 271px;
+}
+
+.row._1khoi.them {
+    height: auto;
+}
 
 .tieumuc {
     font-size: 25px;
@@ -192,13 +232,13 @@ li.line {
 
 ._1khoi p {font-weight: 100;color: #50504f;font-size: 15px;}
 
-/* .khoiduoi .row._2 {
+.khoiduoi .row._2 {
     background: #414142;
     margin-left: 0px;
     width: 100%;
-} */
+}
 
-/* .col-sm-9.khoi {
+ .col-sm-9.khoi {
     margin: 0px;
     padding: 0px;
 }
@@ -207,24 +247,28 @@ li.line {
     background: #fcf8e0;
     border-top: 3px solid #5f5b5b;
 
-} */
+} 
 
 
-/* .col-sm-12.khoi.tren {
+.col-sm-12.khoi.tren {
     background: gray;
     width: 100%;
     height: 100px;
     margin: 0px;
     padding: 0px;
-} */
+} 
 
 
-/* 
+
 .name {
     color: #fcf8de;
     font-size: 50px;
     font-weight: 700;
-    float: right;
-    padding-top: 6px;
-    padding-right: 24px;
-} */
+    float: left;
+    text-align: center;
+    padding-left: 24px;
+    height: 100px;
+    line-height: 100px;
+    width: 75%;
+    /* border: 1px solid; */
+} 
